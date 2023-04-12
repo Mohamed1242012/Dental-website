@@ -1,0 +1,75 @@
+body{
+    font-family: "Mulish";
+}
+.navbar{
+    background-color: #3aab81;
+    padding: 1% 5%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000000000;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.lang{
+    width: 65px;
+    display: inline;
+}
+.lang-img{
+    height: 2rem;
+    width: 2rem;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.title-main-text{
+    font-size: 7rem;
+}
+.inline{
+    display: inline;
+}
+.tooth-brush-img{
+    transform: rotate(-0.10turn);
+    height: 7rem;
+    position: relative;
+    bottom: 9rem;
+    left: 20.0rem;
+}
+.i-space{
+    margin-left: 2.5rem;
+}
+#title{
+    padding: 12rem 10rem 2rem 10rem;
+}
+.title-main-text{
+    color: #3aa2b2;
+    font-weight: 700;
+}
+.img-doctor-frame{
+    background-color: #dde4e5;
+    text-align: center;
+    border-radius: 5%;
+    padding: 1rem 1rem 0 1rem;
+}
+.img-doctor{
+    height: 80%;
+    width: 80%;
+}
+.name-doctor{
+    background-color: #dde4e5;
+    border-radius: 10000000000000000000000000000000000000000000px;
+    width: 60%;
+    padding: 3%;
+    position: relative;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    bottom: 2.5rem;
+}
+.tooth{
+    width: 6rem;
+    position: relative;
+    bottom: 3rem;
+    margin-left: 1rem;
+}

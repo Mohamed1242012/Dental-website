@@ -1,0 +1,43 @@
+#footer{
+    background-color: #3ab286;
+    color: white;
+    text-align: center;
+    padding: 3rem;
+}
+.footer-col-title{
+    margin-bottom: 1.65rem;
+    font-weight: 700;
+}
+.fa-brands{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+.icon-top{
+    padding-top: 1.65;
+}
+.book-cover{
+    height: 20.5rem;
+}
+.buy-but{
+    display: block;
+    margin: 0 auto 0 auto;
+    position: relative;
+    bottom: 1rem;
+}
+.phone-and-mail{
+    font-size: 1.5rem;
+}
+.phone-and-mail-start{
+    margin-bottom: 1rem;
+}
+.phone-and-mail-end{
+    margin-bottom: 1.65rem;
+}
+.inline-block{
+    display: inline-block;
+}
+
+
+
+/* 1376 */

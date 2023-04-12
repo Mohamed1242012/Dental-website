@@ -1,0 +1,41 @@
+.screen-small{
+    display: none;
+}
+.screen-big{
+    display: block;
+}
+@media (max-width: 1376px) {
+    body{
+        padding: 5% 20% 5% 20%;
+    }
+    .screen-small{
+        display: block;
+        text-align: center;
+    }
+    .screen-big{
+        display: none;
+    }
+    h1{
+        font-size: 500%;
+        font-weight: 900;
+        margin-bottom: 3rem;
+        color: #3ab286;
+    }
+    h3,a{
+        color: #798182;
+        font-size: 400%;
+    }
+    a{
+        color: #3ab286;
+        display: block;
+        margin: 1rem;
+    }
+    span{
+        font-weight: 900;
+        color: #3ab286;
+    }
+    .name-my{
+        margin-top: 4rem;
+        font-family: 'Pacifico';
+    }
+}

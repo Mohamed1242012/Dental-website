@@ -1,0 +1,16 @@
+#degrees{
+    background-color: #3ab286;
+    text-align: center;
+    color: white;
+    padding: 6.5rem;
+}
+.degrees-title{
+    margin-bottom: 3.5rem;
+    font-weight: 800;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+.cert-img{
+    width: 20rem;
+    margin-top: 2rem;
+}

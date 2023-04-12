@@ -1,0 +1,38 @@
+#review{
+    padding: 6.5rem;
+    text-align: center;
+}
+.carousel-inner{
+    padding-bottom: 5rem;
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+}
+.review-title{
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #3ab286;
+    margin-bottom: 3.5rem;
+}
+.per-review-name{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.slide-butt-mr{
+    margin: 0 auto 0 auto ;
+}
+.per-review-img{
+    width: 7rem;
+}
+.per-review{
+    padding: 0 3.5rem 0 3.5rem;
+}
+.rating-stars{
+    width: 8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+}
+.per-review-par{
+    color: #868d8d;
+    font-weight: 200;
+}

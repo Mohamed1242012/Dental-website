@@ -1,0 +1,27 @@
+#why-choose{
+    background-color: #3ab286;
+    text-align: center;
+    color: white;
+    padding: 6.5rem;
+}
+.logo-why-img{
+    width: 4rem;
+    height: 4rem;
+}
+.logo-why{
+    color: white;
+}
+.why-choose-r-title{
+    font-weight: 700;
+    margin: 1rem 0 1rem 0;
+}
+.why-choose-title{
+    margin-bottom: 3.5rem;
+    font-weight: 800;
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+.why-choose-p{
+    padding: 0 10% 0 10%;
+    color: #dde4e5;
+}
