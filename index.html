@@ -1,608 +1,512 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- links start -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
-            crossorigin="anonymous">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;900&family=Pacifico&display=swap"
-            rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
-            rel="stylesheet">
-        <script src="https://kit.fontawesome.com/1ea4b8a1eb.js"
-            crossorigin="anonymous"></script>
-        <script defer
-            src="https://use.fontawesome.com/releases/v5.15.0/js/all.js"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-            integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
+<head>
+    <!-- links start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 
-        <link rel="stylesheet"
-            href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
-            integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7"
-            crossorigin="anonymous">
-        <link
-            href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
-            rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;900&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="css/styles-title.css">
-        <link rel="stylesheet" href="css/styles-why-choose.css">
-        <link rel="stylesheet" href="css/styles-financiers.css">
-        <link rel="stylesheet" href="css/styles-degrees.css">
-        <link rel="stylesheet" href="css/styles-review.css">
-        <link rel="stylesheet" href="css/styles-footer.css">
-        <link rel="stylesheet" href="css/media-q.css">
-        <!-- links end -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-title.css">
+    <link rel="stylesheet" href="css/styles-why-choose.css">
+    <link rel="stylesheet" href="css/styles-financiers.css">
+    <link rel="stylesheet" href="css/styles-degrees.css">
+    <link rel="stylesheet" href="css/styles-review.css">
+    <link rel="stylesheet" href="css/styles-footer.css">
+    <link rel="stylesheet" href="css/media-q.css">
+    <!-- links end -->
 
 
 
 
-        <meta charset="UTF-8">
-        <title>Jake Khalid</title>
+    <meta charset="UTF-8">
+    <title>Jake Khalid</title>
 
-    </head>
-    <body>
+</head>
 
-        <div class="screen-small">
+<body>
 
-            <h1>Sorry !</h1>
-            <h3>This site will be optimized for your screen size <span>soon.</span></h3>
-            <h3>These are some of the sites I've made and optimized it for your
-                screen size :</h3>
-            <a target="_blank" href="https://mohamed1242012.github.io/ChatUp/">ChatUp</a>
-            <a target="_blank" href="https://mohamed1242012.github.io/tindog/">tindog</a>
-            <h3 class="name-my">Elsayed Mohamed</h3>
-        </div>
+    <div class="screen-small">
+
+        <h1>Sorry !</h1>
+        <h3>This site will be optimized for your screen size <span>soon.</span></h3>
+        <h3>These are some of the sites I've made and optimized it for your
+            screen size :</h3>
+        <a target="_blank" href="https://mohamed1242012.github.io/ChatUp/">ChatUp</a>
+        <a target="_blank" href="https://mohamed1242012.github.io/tindog/">tindog</a>
+        <h3 class="name-my">Elsayed Mohamed</h3>
+    </div>
 
 
-        <div class="screen-big">
+    <div class="screen-big">
 
-            <nav class="navbar navbar-expand-sm navbar-dark">
-                <a href="#" class="lang"><img class="lang-img" src="img/AR.png"
-                        alt="arabic lang"></a>
-                <a href="" class="navbar-brand">
-                    Jake Khalid
-                </a>
-                <button class="navbar-toggler" type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo01"
-                    aria-controls="navbarTogglerDemo01" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="#title" class="nav-link">Hello.</a>
-                        </li>
+        <nav class="navbar navbar-expand-sm navbar-dark">
+            <a href="#" class="lang"><img class="lang-img" src="img/AR.png" alt="arabic lang"></a>
+            <a href="" class="navbar-brand">
+                Jake Khalid
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#title" class="nav-link">Hello.</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a href="#why-choose" class="nav-link">Why Choose Me</a>
-                        </li>
+                    <li class="nav-item">
+                        <a href="#why-choose" class="nav-link">Why Choose Me</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a href="#financiers" class="nav-link">Financiers</a>
-                        </li>
+                    <li class="nav-item">
+                        <a href="#financiers" class="nav-link">Financiers</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a href="#degrees" class="nav-link">Degrees</a>
-                        </li>
+                    <li class="nav-item">
+                        <a href="#degrees" class="nav-link">Degrees</a>
+                    </li>
 
-                        <li class="nav-item">
-                            <a href="#review" class="nav-link">Reviews</a>
-                        </li>
+                    <li class="nav-item">
+                        <a href="#review" class="nav-link">Reviews</a>
+                    </li>
 
-                    </ul>
-                </div>
-            </nav>
+                </ul>
+            </div>
+        </nav>
 
-            <section id="title">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h1 class="title-main-text inline">Hello.</h1>
-                            <img class="tooth" src="img/tooth.png" alt="tooth">
-                            <h1 class="title-main-text">I'm Jake</h1>
-                            <h1 class="title-main-text">a Dent<span
-                                    class="i-space">st</span></h1>
-                            <img class="tooth-brush-img"
-                                src="img/tooth_brush_img.png" alt="tooth brush
+        <section id="title">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1 class="title-main-text inline">Hello.</h1>
+                        <img class="tooth" src="img/tooth.png" alt="tooth">
+                        <h1 class="title-main-text">I'm Jake</h1>
+                        <h1 class="title-main-text">a Dent<span class="i-space">st</span></h1>
+                        <img class="tooth-brush-img" src="img/tooth_brush_img.png" alt="tooth brush
                                 like
                                 an i">
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="img-and-name">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="img-and-name">
 
-                                <div class="img-doctor-frame">
-                                    <img class="img-doctor"
-                                        src="https://www.planetdds.com/wp-content/uploads/2022/08/smiling-dentist-compressed.png"
-                                        alt="a doctor">
-                                </div>
-                                <div class="name-doctor">
-                                    <h2 class="inline">Jake Khalid</h2>
-                                </div>
+                            <div class="img-doctor-frame">
+                                <img class="img-doctor"
+                                    src="https://www.planetdds.com/wp-content/uploads/2022/08/smiling-dentist-compressed.png"
+                                    alt="a doctor">
                             </div>
-
+                            <div class="name-doctor">
+                                <h2 class="inline">Jake Khalid</h2>
+                            </div>
                         </div>
+
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section id="why-choose">
-                <h2 class="why-choose-title">Why Choose Me</h2>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <i class="logo-why fa-solid fa-coins fa-4x"></i>
-                            <h3 class="why-choose-r-title">Cost</h3>
-                            <p class="why-choose-p">Lorem ipsum, dolor sit amet
-                                consectetur adipisicing elit. Aliquam modi
-                                doloribus
-                                omnis tempore impedit, suscipit nostrum
-                                perferendis
-                                quidem nam voluptatem dolor ea ducimus quia
-                                maiores
-                                unde eligendi quis possimus repellendus.</p>
-                        </div>
+        <section id="why-choose">
+            <h2 class="why-choose-title">Why Choose Me</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <i class="logo-why fa-solid fa-coins fa-4x"></i>
+                        <h3 class="why-choose-r-title">Cost</h3>
+                        <p class="why-choose-p">Lorem ipsum, dolor sit amet
+                            consectetur adipisicing elit. Aliquam modi
+                            doloribus
+                            omnis tempore impedit, suscipit nostrum
+                            perferendis
+                            quidem nam voluptatem dolor ea ducimus quia
+                            maiores
+                            unde eligendi quis possimus repellendus.</p>
+                    </div>
 
-                        <div class="col-lg-4">
-                            <img class="logo-why logo-why-img"
-                                src="img/trust.png"
-                                alt="trust">
-                            <h3 class="why-choose-r-title">Trust</h3>
-                            <p class="why-choose-p">Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit. Deserunt, illo
-                                fuga
-                                consequuntur exercitationem dignissimos aut
-                                similique? Laudantium nesciunt repudiandae
-                                ratione
-                                impedit quisquam doloribus sed iste eveniet
-                                eligendi
-                                dolor, nam culpa!</p>
-                        </div>
+                    <div class="col-lg-4">
+                        <img class="logo-why logo-why-img" src="img/trust.png" alt="trust">
+                        <h3 class="why-choose-r-title">Trust</h3>
+                        <p class="why-choose-p">Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit. Deserunt, illo
+                            fuga
+                            consequuntur exercitationem dignissimos aut
+                            similique? Laudantium nesciunt repudiandae
+                            ratione
+                            impedit quisquam doloribus sed iste eveniet
+                            eligendi
+                            dolor, nam culpa!</p>
+                    </div>
 
-                        <div class="col-lg-4">
-                            <i class="logo-why fa-solid fa-comments fa-4x"></i>
-                            <h3 class="why-choose-r-title">Inquiries</h3>
-                            <p class="why-choose-p">Lorem ipsum dolor sit, amet
-                                consectetur adipisicing elit. Qui voluptatem est
-                                accusantium voluptates in vero labore. Odit,
-                                eveniet
-                                esse officiis iure eligendi facere eaque modi
-                                quia
-                                nam deleniti error reiciendis.</p>
-                        </div>
+                    <div class="col-lg-4">
+                        <i class="logo-why fa-solid fa-comments fa-4x"></i>
+                        <h3 class="why-choose-r-title">Inquiries</h3>
+                        <p class="why-choose-p">Lorem ipsum dolor sit, amet
+                            consectetur adipisicing elit. Qui voluptatem est
+                            accusantium voluptates in vero labore. Odit,
+                            eveniet
+                            esse officiis iure eligendi facere eaque modi
+                            quia
+                            nam deleniti error reiciendis.</p>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section id="financiers">
-                <h2 class="financiers-title">Financiers</h2>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <img class="hos-img"
-                                src="https://cmcdubai.ae/wp-content/uploads/2022/09/Clemenceau-Medical-Center-Hospital-logo-1.png">
-                        </div>
-                        <div class="col-lg-4">
-                            <img class="hos-img"
-                                src="https://www.phukethospital.com/wp-content/uploads/2019/06/LOGO-BPK-2019.png">
-                        </div>
-                        <div class="col-lg-4">
-                            <img class="hos-img"
-                                src="https://images.saudigerman.com/wp-content/uploads/2020/02/29100714/SGH-UAE-Logo-01.png">
-                        </div>
+        <section id="financiers">
+            <h2 class="financiers-title">Financiers</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img class="hos-img"
+                            src="https://cmcdubai.ae/wp-content/uploads/2022/09/Clemenceau-Medical-Center-Hospital-logo-1.png">
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="hos-img"
+                            src="https://www.phukethospital.com/wp-content/uploads/2019/06/LOGO-BPK-2019.png">
+                    </div>
+                    <div class="col-lg-4">
+                        <img class="hos-img"
+                            src="https://images.saudigerman.com/wp-content/uploads/2020/02/29100714/SGH-UAE-Logo-01.png">
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section id="degrees">
-                <h2 class="degrees-title">My Undergraduate Degrees</h2>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <i class="fa-solid fa-graduation-cap fa-4x"></i>
-                            <h3 class="why-choose-r-title">University</h3>
-                            <p class="why-choose-p">Lorem ipsum, dolor sit amet
-                                consectetur adipisicing elit. Aliquam modi
-                                doloribus
-                                omnis tempore impedit, suscipit nostrum
-                                perferendis
-                                quidem nam voluptatem dolor ea ducimus quia
-                                maiores
-                                unde eligendi quis possimus repellendus.</p>
-                            <img class="cert-img"
-                                src="https://marketplace.canva.com/EAFGv9WhSmc/1/0/1600w/canva-blue-and-yellow-minimalist-employee-of-the-month-certificate-jaIc19nYjY4.jpg"
-                                alt="certificate">
-                        </div>
+        <section id="degrees">
+            <h2 class="degrees-title">My Undergraduate Degrees</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <i class="fa-solid fa-graduation-cap fa-4x"></i>
+                        <h3 class="why-choose-r-title">University</h3>
+                        <p class="why-choose-p">Lorem ipsum, dolor sit amet
+                            consectetur adipisicing elit. Aliquam modi
+                            doloribus
+                            omnis tempore impedit, suscipit nostrum
+                            perferendis
+                            quidem nam voluptatem dolor ea ducimus quia
+                            maiores
+                            unde eligendi quis possimus repellendus.</p>
+                        <img class="cert-img"
+                            src="https://marketplace.canva.com/EAFGv9WhSmc/1/0/1600w/canva-blue-and-yellow-minimalist-employee-of-the-month-certificate-jaIc19nYjY4.jpg"
+                            alt="certificate">
+                    </div>
 
-                        <div class="col-lg-4">
-                            <i class="fa-sharp fa-solid fa-user-graduate fa-4x"></i>
-                            <h3 class="why-choose-r-title">Master's</h3>
-                            <p class="why-choose-p">Lorem, ipsum dolor sit amet
-                                consectetur adipisicing elit. Deserunt, illo
-                                fuga
-                                consequuntur exercitationem dignissimos aut
-                                similique? Laudantium nesciunt repudiandae
-                                ratione
-                                impedit quisquam doloribus sed iste eveniet
-                                eligendi
-                                dolor, nam culpa!</p>
-                            <img class="cert-img"
-                                src="https://marketplace.canva.com/EAFGv9WhSmc/1/0/1600w/canva-blue-and-yellow-minimalist-employee-of-the-month-certificate-jaIc19nYjY4.jpg"
-                                alt="certificate">
-                        </div>
+                    <div class="col-lg-4">
+                        <i class="fa-sharp fa-solid fa-user-graduate fa-4x"></i>
+                        <h3 class="why-choose-r-title">Master's</h3>
+                        <p class="why-choose-p">Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit. Deserunt, illo
+                            fuga
+                            consequuntur exercitationem dignissimos aut
+                            similique? Laudantium nesciunt repudiandae
+                            ratione
+                            impedit quisquam doloribus sed iste eveniet
+                            eligendi
+                            dolor, nam culpa!</p>
+                        <img class="cert-img"
+                            src="https://marketplace.canva.com/EAFGv9WhSmc/1/0/1600w/canva-blue-and-yellow-minimalist-employee-of-the-month-certificate-jaIc19nYjY4.jpg"
+                            alt="certificate">
+                    </div>
 
-                        <div class="col-lg-4">
-                            <i class="fa-solid fa-school fa-4x"></i>
-                            <h3 class="why-choose-r-title">Ph.D</h3>
-                            <p class="why-choose-p">Lorem ipsum dolor sit, amet
-                                consectetur adipisicing elit. Qui voluptatem est
-                                accusantium voluptates in vero labore. Odit,
-                                eveniet
-                                esse officiis iure eligendi facere eaque modi
-                                quia
-                                nam deleniti error reiciendis.</p>
-                            <img class="cert-img"
-                                src="https://marketplace.canva.com/EAFGv9WhSmc/1/0/1600w/canva-blue-and-yellow-minimalist-employee-of-the-month-certificate-jaIc19nYjY4.jpg"
-                                alt="certificate">
-                        </div>
+                    <div class="col-lg-4">
+                        <i class="fa-solid fa-school fa-4x"></i>
+                        <h3 class="why-choose-r-title">Ph.D</h3>
+                        <p class="why-choose-p">Lorem ipsum dolor sit, amet
+                            consectetur adipisicing elit. Qui voluptatem est
+                            accusantium voluptates in vero labore. Odit,
+                            eveniet
+                            esse officiis iure eligendi facere eaque modi
+                            quia
+                            nam deleniti error reiciendis.</p>
+                        <img class="cert-img"
+                            src="https://marketplace.canva.com/EAFGv9WhSmc/1/0/1600w/canva-blue-and-yellow-minimalist-employee-of-the-month-certificate-jaIc19nYjY4.jpg"
+                            alt="certificate">
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section id="review">
-                <h2 class="review-title">Customer Review</h2>
+        <section id="review">
+            <h2 class="review-title">Customer Review</h2>
 
-                <div id="carouselExampleIndicators" class="carousel slide
+            <div id="carouselExampleIndicators" class="carousel slide
                     carousel-dark">
-                    <div class="carousel-indicators">
-                        <button type="button"
-                            data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide-to="0" class="active"
-                            aria-current="true"
-                            aria-label="Slide 1"></button>
-                        <button type="button"
-                            data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button"
-                            data-bs-target="#carouselExampleIndicators"
-                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                        <div class="container-fluid">
+                            <div class="row">
+
+
+                                <div class="per-review col-lg-4">
+                                    <img class="per-review-img"
+                                        src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
+                                        alt="">
+                                    <h3 class="per-review-name">Mohamed Elsayed</h3>
+                                    <img class="rating-stars" src="img/stars.jpg" alt="">
+                                    <p class="per-review-par">Lorem ipsum
+                                        dolor
+                                        sit, amet consectetur adipisicing
+                                        elit.
+                                        Eum, repellendus. Minima rerum sint
+                                        eum
+                                        vel quae. Voluptatibus nulla non
+                                        dicta
+                                        earum, sunt magni quos quas
+                                        laudantium
+                                        qui voluptatum. Ab, ipsa.</p>
+                                </div>
+
+                                <div class="per-review col-lg-4">
+                                    <img class="per-review-img"
+                                        src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
+                                        alt="">
+                                    <h3 class="per-review-name">Ahmed Mohsein</h3>
+                                    <img class="rating-stars" src="img/stars.jpg" alt="">
+                                    <p class="per-review-par">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam commodi
+                                        exercitationem qui eos id similique. Perferendis, nulla? Error, praesentium
+                                        eligendi, esse veniam neque id similique ea ad inventore, quibusdam soluta.
+                                    </p>
+                                </div>
+
+                                <div class="per-review col-lg-4">
+                                    <img class="per-review-img"
+                                        src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
+                                        alt="">
+                                    <h3 class="per-review-name">Mahmoud Hamed</h3>
+                                    <img class="rating-stars" src="img/stars.jpg" alt="">
+                                    <p class="per-review-par">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        Ex error vero eius ratione sit at! Aperiam iure eius natus quas! Doloremque,
+                                        error enim. Saepe illum dicta obcaecati. Cupiditate, recusandae earum?</p>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+
+
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-
-                            <div class="container-fluid">
-                                <div class="row">
+                    <div class="carousel-item">
 
 
-                                    <div class="per-review col-lg-4">
-                                        <img class="per-review-img"
-                                            src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
-                                            alt="">
-                                        <h3 class="per-review-name">Name</h3>
-                                        <img class="rating-stars"
-                                            src="img/stars.jpg" alt="">
-                                        <p class="per-review-par">Lorem ipsum
-                                            dolor
-                                            sit, amet consectetur adipisicing
-                                            elit.
-                                            Eum, repellendus. Minima rerum sint
-                                            eum
-                                            vel quae. Voluptatibus nulla non
-                                            dicta
-                                            earum, sunt magni quos quas
-                                            laudantium
-                                            qui voluptatum. Ab, ipsa.</p>
-                                    </div>
-
-                                    <div class="per-review col-lg-4">
-                                        <img class="per-review-img"
-                                            src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
-                                            alt="">
-                                        <h3 class="per-review-name">Name</h3>
-                                        <img class="rating-stars"
-                                            src="img/stars.jpg" alt="">
-                                        <p class="per-review-par">Lorem ipsum
-                                            dolor
-                                            sit, amet consectetur adipisicing
-                                            elit.
-                                            Eum, repellendus. Minima rerum sint
-                                            eum
-                                            vel quae. Voluptatibus nulla non
-                                            dicta
-                                            earum, sunt magni quos quas
-                                            laudantium
-                                            qui voluptatum. Ab, ipsa.</p>
-                                    </div>
-
-                                    <div class="per-review col-lg-4">
-                                        <img class="per-review-img"
-                                            src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
-                                            alt="">
-                                        <h3 class="per-review-name">Name</h3>
-                                        <img class="rating-stars"
-                                            src="img/stars.jpg" alt="">
-                                        <p class="per-review-par">Lorem ipsum
-                                            dolor
-                                            sit, amet consectetur adipisicing
-                                            elit.
-                                            Eum, repellendus. Minima rerum sint
-                                            eum
-                                            vel quae. Voluptatibus nulla non
-                                            dicta
-                                            earum, sunt magni quos quas
-                                            laudantium
-                                            qui voluptatum. Ab, ipsa.</p>
-                                    </div>
+                        <div class="container-fluid">
+                            <div class="row">
 
 
-
+                                <div class="per-review col-lg-4">
+                                    <img class="per-review-img"
+                                        src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
+                                        alt="">
+                                    <h3 class="per-review-name">Hany Shaker</h3>
+                                    <img class="rating-stars" src="img/stars.jpg" alt="">
+                                    <p class="per-review-par">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Ea sapiente maiores tempore consequuntur quasi ratione est ullam, natus omnis
+                                        necessitatibus earum perferendis voluptate ab deleniti modi veritatis libero
+                                        asperiores dolor!</p>
                                 </div>
-                            </div>
 
-
-
-                        </div>
-                        <div class="carousel-item">
-
-
-                            <div class="container-fluid">
-                                <div class="row">
-
-
-                                    <div class="per-review col-lg-4">
-                                        <img class="per-review-img"
-                                            src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
-                                            alt="">
-                                        <h3 class="per-review-name">Name</h3>
-                                        <img class="rating-stars"
-                                            src="img/stars.jpg" alt="">
-                                        <p class="per-review-par">Lorem ipsum
-                                            dolor
-                                            sit, amet consectetur adipisicing
-                                            elit.
-                                            Eum, repellendus. Minima rerum sint
-                                            eum
-                                            vel quae. Voluptatibus nulla non
-                                            dicta
-                                            earum, sunt magni quos quas
-                                            laudantium
-                                            qui voluptatum. Ab, ipsa.</p>
-                                    </div>
-
-                                    <div class="per-review col-lg-4">
-                                        <img class="per-review-img"
-                                            src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
-                                            alt="">
-                                        <h3 class="per-review-name">Name</h3>
-                                        <img class="rating-stars"
-                                            src="img/stars.jpg" alt="">
-                                        <p class="per-review-par">Lorem ipsum
-                                            dolor
-                                            sit, amet consectetur adipisicing
-                                            elit.
-                                            Eum, repellendus. Minima rerum sint
-                                            eum
-                                            vel quae. Voluptatibus nulla non
-                                            dicta
-                                            earum, sunt magni quos quas
-                                            laudantium
-                                            qui voluptatum. Ab, ipsa.</p>
-                                    </div>
-
-                                    <div class="per-review col-lg-4">
-                                        <img class="per-review-img"
-                                            src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
-                                            alt="">
-                                        <h3 class="per-review-name">Name</h3>
-                                        <img class="rating-stars"
-                                            src="img/stars.jpg" alt="">
-                                        <p class="per-review-par">Lorem ipsum
-                                            dolor
-                                            sit, amet consectetur adipisicing
-                                            elit.
-                                            Eum, repellendus. Minima rerum sint
-                                            eum
-                                            vel quae. Voluptatibus nulla non
-                                            dicta
-                                            earum, sunt magni quos quas
-                                            laudantium
-                                            qui voluptatum. Ab, ipsa.</p>
-                                    </div>
-
-
-
+                                <div class="per-review col-lg-4">
+                                    <img class="per-review-img"
+                                        src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
+                                        alt="">
+                                    <h3 class="per-review-name">Amr Abdeen</h3>
+                                    <img class="rating-stars" src="img/stars.jpg" alt="">
+                                    <p class="per-review-par">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Nam nisi maxime dignissimos optio beatae cumque quis accusantium, dolores ipsam
+                                        dolorem, minima voluptates expedita magni ab illo delectus fuga dolore? Fugiat!
+                                    </p>
                                 </div>
-                            </div>
 
-
-                        </div>
-                        <div class="carousel-item">
-
-
-                            <div class="container-fluid">
-                                <div class="row">
-
-
-                                    <div class="per-review col-lg-4">
-                                        <img class="per-review-img"
-                                            src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
-                                            alt="">
-                                        <h3 class="per-review-name">Name</h3>
-                                        <img class="rating-stars"
-                                            src="img/stars.jpg" alt="">
-                                        <p class="per-review-par">Lorem ipsum
-                                            dolor
-                                            sit, amet consectetur adipisicing
-                                            elit.
-                                            Eum, repellendus. Minima rerum sint
-                                            eum
-                                            vel quae. Voluptatibus nulla non
-                                            dicta
-                                            earum, sunt magni quos quas
-                                            laudantium
-                                            qui voluptatum. Ab, ipsa.</p>
-                                    </div>
-
-                                    <div class="per-review col-lg-4">
-                                        <img class="per-review-img"
-                                            src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
-                                            alt="">
-                                        <h3 class="per-review-name">Name</h3>
-                                        <img class="rating-stars"
-                                            src="img/stars.jpg" alt="">
-                                        <p class="per-review-par">Lorem ipsum
-                                            dolor
-                                            sit, amet consectetur adipisicing
-                                            elit.
-                                            Eum, repellendus. Minima rerum sint
-                                            eum
-                                            vel quae. Voluptatibus nulla non
-                                            dicta
-                                            earum, sunt magni quos quas
-                                            laudantium
-                                            qui voluptatum. Ab, ipsa.</p>
-                                    </div>
-
-                                    <div class="per-review col-lg-4">
-                                        <img class="per-review-img"
-                                            src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
-                                            alt="">
-                                        <h3 class="per-review-name">Name</h3>
-                                        <img class="rating-stars"
-                                            src="img/stars.jpg" alt="">
-                                        <p class="per-review-par">Lorem ipsum
-                                            dolor
-                                            sit, amet consectetur adipisicing
-                                            elit.
-                                            Eum, repellendus. Minima rerum sint
-                                            eum
-                                            vel quae. Voluptatibus nulla non
-                                            dicta
-                                            earum, sunt magni quos quas
-                                            laudantium
-                                            qui voluptatum. Ab, ipsa.</p>
-                                    </div>
-
-
-
+                                <div class="per-review col-lg-4">
+                                    <img class="per-review-img"
+                                        src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
+                                        alt="">
+                                    <h3 class="per-review-name">Adel Shehatah</h3>
+                                    <img class="rating-stars" src="img/stars.jpg" alt="">
+                                    <p class="per-review-par">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Id assumenda corrupti saepe perspiciatis magni nobis accusantium laboriosam
+                                        quasi. Sit error adipisci quibusdam nisi aperiam debitis sint vero quasi nulla
+                                        totam.</p>
                                 </div>
+
+
+
                             </div>
-
-
                         </div>
+
+
                     </div>
+                    <div class="carousel-item">
 
-                    <button class="carousel-control-prev slide-butt-mr"
-                        type="button"
-                        data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon"
-                            aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next slide-butt-mr"
-                        type="button"
-                        data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon"
-                            aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+
+                        <div class="container-fluid">
+                            <div class="row">
+
+
+                                <div class="per-review col-lg-4">
+                                    <img class="per-review-img"
+                                        src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
+                                        alt="">
+                                    <h3 class="per-review-name">Ali Sharker</h3>
+                                    <img class="rating-stars" src="img/stars.jpg" alt="">
+                                    <p class="per-review-par">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Itaque dolore facilis necessitatibus porro optio quis. Molestias, at et itaque
+                                        nam minus explicabo excepturi nulla architecto expedita perferendis quia
+                                        aspernatur natus!</p>
+                                </div>
+
+                                <div class="per-review col-lg-4">
+                                    <img class="per-review-img"
+                                        src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
+                                        alt="">
+                                    <h3 class="per-review-name">Ahmad Nabeel</h3>
+                                    <img class="rating-stars" src="img/stars.jpg" alt="">
+                                    <p class="per-review-par">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Similique debitis quia veritatis eligendi neque earum natus molestias. Ipsam,
+                                        reiciendis ut? Numquam possimus velit voluptatum maxime illo? Nesciunt, soluta.
+                                        At, dolore.</p>
+                                </div>
+
+                                <div class="per-review col-lg-4">
+                                    <img class="per-review-img"
+                                        src="https://www.pngkit.com/png/full/639-6399637_henry-circle-gentleman.png"
+                                        alt="">
+                                    <h3 class="per-review-name">Mustafa Ali</h3>
+                                    <img class="rating-stars" src="img/stars.jpg" alt="">
+                                    <p class="per-review-par">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                        Quam magni laborum dolor dolore dolorum dicta tenetur deleniti culpa ut omnis,
+                                        consequuntur architecto vel ipsa sequi, in necessitatibus eos repellendus autem.
+                                    </p>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
                 </div>
 
-            </section>
+                <button class="carousel-control-prev slide-butt-mr" type="button"
+                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next slide-butt-mr" type="button"
+                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
 
-            <section id="footer">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <h3 class="footer-col-title">Location</h3>
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.7694243303745!2d55.31265917525989!3d25.24468997768046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f42d4d5d697c1%3A0x6713985aabd9a3e2!2sOffice%20Court%20Building!5e0!3m2!1sen!2sae!4v1681222935039!5m2!1sen!2sae"
-                                width="300" height="350" style="border:0;"
-                                allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                        <div class="col-lg-3">
-                            <h3 class="footer-col-title">Communication</h3>
-                            <div>
-                                <i class="fa-solid fa-phone"></i>
-                                <p class="inline-block phone-and-mail
+        </section>
+
+        <section id="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <h3 class="footer-col-title">Location</h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.7694243303745!2d55.31265917525989!3d25.24468997768046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f42d4d5d697c1%3A0x6713985aabd9a3e2!2sOffice%20Court%20Building!5e0!3m2!1sen!2sae!4v1681222935039!5m2!1sen!2sae"
+                            width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3 class="footer-col-title">Communication</h3>
+                        <div>
+                            <i class="fa-solid fa-phone"></i>
+                            <p class="inline-block phone-and-mail
                                     phone-and-mail-start">+123 456 789 11</p>
-                            </div>
-                            <div>
-                                <i class="fa-solid fa-envelope"></i>
-                                <p class="inline-block phone-and-mail
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-envelope"></i>
+                            <p class="inline-block phone-and-mail
                                     phone-and-mail-end">elsayed123@gmail.com</p>
-                            </div>
-                            <hr>
-                            <div class="so-mi">
-                                <div>
-                                    <a class="fa-brands fa-facebook fa-2x
-                                        icon-top"></a>
-                                    <a class="fa-brands fa-instagram fa-2x
-                                        icon-top"></a>
-                                </div>
-                                <div>
-                                    <a class="fa-brands fa-twitter fa-2x"></a>
-                                    <a class="fa-brands fa-tiktok fa-2x"></a>
-                                </div>
-                            </div>
-                            <hr>
+                        </div>
+                        <hr>
+                        <div class="so-mi">
                             <div>
-                                <p class="inline-block phone-and-mail">Elsayed Mohamed</p>
+                                <a class="fa-brands fa-facebook fa-2x
+                                        icon-top"></a>
+                                <a class="fa-brands fa-instagram fa-2x
+                                        icon-top"></a>
+                            </div>
+                            <div>
+                                <a class="fa-brands fa-twitter fa-2x"></a>
+                                <a class="fa-brands fa-tiktok fa-2x"></a>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <h3 class="footer-col-title">Books</h3>
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="book-con col-lg-4">
-                                        <img class="book-cover"
-                                            src="https://cdn.vox-cdn.com/thumbor/p-gGrwlaU4rLikEAgYhupMUhIJc=/0x0:1650x2475/1200x0/filters:focal(0x0:1650x2475):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/13757614/817BsplxI9L.jpg"
-                                            alt="">
-                                        <button type="button" class="btn
+                        <hr>
+                        <div>
+                            <p class="inline-block phone-and-mail">Elsayed Mohamed</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="footer-col-title">Books</h3>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="book-con col-lg-4">
+                                    <img class="book-cover"
+                                        src="https://cdn.vox-cdn.com/thumbor/p-gGrwlaU4rLikEAgYhupMUhIJc=/0x0:1650x2475/1200x0/filters:focal(0x0:1650x2475):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/13757614/817BsplxI9L.jpg"
+                                        alt="">
+                                    <button type="button" class="btn
                                             btn-light buy-but"> Buy </button>
-                                    </div>
-                                    <div class="book-con col-lg-4">
-                                        <img class="book-cover"
-                                            src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/art-book-cover-design-template-34323b0f0734dccded21e0e3bebf004c_screen.jpg?ts=1637015198"
-                                            alt="">
-                                        <button type="button" class="btn
+                                </div>
+                                <div class="book-con col-lg-4">
+                                    <img class="book-cover"
+                                        src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/art-book-cover-design-template-34323b0f0734dccded21e0e3bebf004c_screen.jpg?ts=1637015198"
+                                        alt="">
+                                    <button type="button" class="btn
                                             btn-light buy-but"> Buy </button>
-                                    </div>
-                                    <div class="book-con col-lg-4">
-                                        <img class="book-cover"
-                                            src="https://edit.org/images/cat/book-covers-big-2019101610.jpg"
-                                            alt="">
-                                        <button type="button" class="btn
+                                </div>
+                                <div class="book-con col-lg-4">
+                                    <img class="book-cover"
+                                        src="https://edit.org/images/cat/book-covers-big-2019101610.jpg" alt="">
+                                    <button type="button" class="btn
                                             btn-light buy-but"> Buy </button>
-                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
 
 
@@ -617,46 +521,47 @@
 
 
 
-            <!-- !!!scripts only!!! -->
-            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-                crossorigin="anonymous"></script>
-            <script
-                src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-                crossorigin="anonymous"></script>
-            <script
-                src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-                integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-                crossorigin="anonymous"></script>
-            <script
-                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-                crossorigin="anonymous"></script>
-            <script
-                src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-                integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-                crossorigin="anonymous"></script>
-            <script
-                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-                crossorigin="anonymous"></script>
-            <script
-                src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-                integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-                crossorigin="anonymous"></script>
-            <script
-                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-                crossorigin="anonymous"></script>
-            <script
-                src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-                integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-                crossorigin="anonymous"></script>
-            <script src="https://kit.fontawesome.com/1ea4b8a1eb.js"
-                crossorigin="anonymous"></script>
-            <script defer
-                src="https://use.fontawesome.com/releases/v5.15.0/js/all.js"></script>
-        </div>
-    </body>
+        <!-- !!!scripts only!!! -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/1ea4b8a1eb.js" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.15.0/js/all.js"></script>
+        <script src="https://kit.fontawesome.com/1ea4b8a1eb.js" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.15.0/js/all.js"></script>
+    </div>
+    <script>
+        window.addEventListener('resize', function () {
+            if (window.innerWidth <= 1376) {
+                window.location.href = "https://mohamed1242012.github.io/Dental-website-mb";
+            }
+        });
+
+    </script>
+</body>
+
 </html>
